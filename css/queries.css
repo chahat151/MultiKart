@@ -1,0 +1,257 @@
+/* 
+    1rem = 1em
+
+    1200px/16 = 75em
+    992px/16 = 62em
+    768px/16 = 48em
+    576px/16 = 36em
+    416px/16 = 26em
+*/
+
+/* ******************** */
+/* BELOW 1200px (LandScape Tablets) */
+/* ******************** */
+@media (max-width:74.94em){
+    /* --------------------- */
+    /* GENERAL STYLES */
+    /* --------------------- */
+    html{
+        /* 8.7px / 16px = 0/543 */
+        font-size: 54.3%;  
+    }
+    section {
+        margin-bottom: 6rem;
+    }
+    .main-nav {
+        display: none;
+    }
+    .menu-bars {
+        display: initial;
+    }
+    .top-header{
+        display: none;
+    }
+    .sale-content h2 {
+        font-size: 5rem;
+    }
+    .special-offers {
+        padding: 16rem 0;
+    }
+    .inner_special-offers h2 {
+        font-size: 9rem;
+    }
+    .inner_special-offers h3 {
+        font-size: 5.5rem;
+    }
+    .inner_special-offers h4 {
+        font-size: 2.2rem;
+        line-height: 1;
+        letter-spacing: 1.1rem;
+        padding: 0;
+    }
+    .new {
+        padding: 1.1rem 0.4rem;
+        font-size: 0.9rem;
+    }
+    .onsale {
+        font-size: 1.2rem;
+    }    
+    .services {
+        padding: 1.5rem 0;
+    }
+    .hero .inner_item {
+        height: 58vh;
+    }
+    .inner_partner img {
+        width: 60% !important;
+    }
+}
+/* ******************** */
+/* BELOW 992px (Tablets) */
+/* ******************** */
+@media (max-width:61.95em){
+    /* --------------------- */
+    /* GENERAL STYLES */
+    /* --------------------- */
+    html{
+        /* 8.32px / 16px = 0.52 */
+        font-size: 50%;  
+    }
+
+    .special-offers {
+        padding: 13rem 0;
+    }
+    .sale-content h2 {
+        font-size: 4rem;
+    }
+    /* --------------------- */
+    /* NAVBAR SECTION */
+    /* --------------------- */
+    /* --------------------- */
+    /* HERO SECTION */
+    /* --------------------- */
+    /* --------------------- */
+    /* FOOTER SECTION */
+    /* --------------------- */
+
+    .inner_form , .suscribe-newsletter h4, .suscribe-newsletter p {
+        text-align: center;
+    }
+    main .row, footer .row {
+        row-gap: 3rem;
+    }
+}
+/* ******************** */
+/* BELOW 768px (Landscape Phones) */
+/* ******************** */
+@media (max-width:47.9em){
+    /* --------------------- */
+    /* GENERAL STYLES */
+    /* --------------------- */
+    .hero h1 {
+        font-size: 5.5rem;
+    }
+    .hero h4 {
+        font-weight: 700;
+        letter-spacing: 0.3em;
+        font-size: 1.7rem;
+    }
+    main .row, footer .row {
+        row-gap: 3rem;
+    }
+    .sale-content h2 {
+        font-size: 5rem;
+    }
+    .inner_service-box {
+        display: block;
+        text-align: center;
+        padding: 0.3rem 0;
+    }
+    .inner_service-box span {
+        display: inline-block;
+        margin-bottom: 1.5rem;
+        text-align: center;
+    }
+    .special-offers {
+        padding: 8rem 0;
+        background-attachment: initial;
+    }
+    .inner_special-offers h2 {
+        font-size: 7rem;
+    }
+    .inner_special-offers h3 {
+        font-size: 4.1rem;
+    }
+    .inner_special-offers h4 {
+        font-size: 1.4rem;
+        line-height: 1;
+        letter-spacing: 1rem;
+        padding: 0;
+    }
+    .sec-footer {
+        padding: 4rem 0;
+    }
+    .copyright-section .row{
+        text-align: center;
+    }
+    .copyright-section .payment-icons {
+        float: none;
+    }
+    /* --------------------- */
+    /* NAVBAR SECTION */
+    /* --------------------- */
+    /* --------------------- */
+    /* HERO SECTION */
+    /* --------------------- */
+    /* --------------------- */
+    /* FOOTER SECTION */
+    /* --------------------- */
+}
+/* ******************** */
+/* BELOW 576px (Potrait Phones)*/
+/* ******************** */
+@media (max-width:35.9em){
+    /* --------------------- */
+    /* GENERAL STYLES */
+    /* --------------------- */
+    .button{
+        font-size: 1.3rem;
+        padding: 1.1rem 2.2rem;
+    }
+    #hero-slider:hover .owl-prev {
+        left: 5rem;
+    }
+    #hero-slider:hover .owl-next {
+        right: 5rem;
+    }
+    .inner_nav {
+        padding: 1.5rem;
+    }
+    .nav-icons {
+        position: fixed;
+        bottom:0 ;
+        left: 0;
+        right: 0;
+        background-color: #343a40;
+        z-index: 99;
+    }
+    .nac-icon-link {
+        color: #f1f1f1;
+    }
+    .nav-icons-listitems {
+        padding: 2.5rem 3rem;
+        position: relative;
+    }
+    .inner_service-box {
+        display: flex;
+        align-items: center;
+    }
+    #whatapp-btn {
+        display: none;
+    }
+    /* --------------------- */
+    /* HERO SECTION */
+    /* --------------------- */
+}
+/* ******************** */
+/* BELOW 416px (Smaller Potrait Phones)*/
+/* ******************** */
+@media (max-width:26.1em){
+    /* --------------------- */
+    /* GENERAL STYLES */
+    /* --------------------- */
+    #hero-slider:hover .owl-prev {
+        left: 2rem;
+    }
+    #hero-slider:hover .owl-next {
+        right: 2rem;
+    }
+    .hero .inner_item {
+        height: 43vh;
+    }
+    .hero h1 {
+        font-size: 3.5rem;
+    }
+    .hero h4 {
+        letter-spacing: 0.2em;
+        font-size: 1.6rem;
+    }
+    .slider-content {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .sale-content h2 {
+        font-size: 4.3rem;
+    }
+    .inner_special-offers {
+        width: 100%;
+    }
+    .inner_form input {
+            margin-bottom: 1.2rem;
+    }
+    /* --------------------- */
+    /* HERO SECTION */
+    /* --------------------- */
+}
